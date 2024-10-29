@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:guided/my_tabbar.dart';
-import 'package:guided/my_widget.dart';
+import 'package:flutter_application_1/my_tabbar.dart';
+import 'package:flutter_application_1/my_widget.dart';
 
 class MyBottom extends StatefulWidget {
   const MyBottom({super.key});

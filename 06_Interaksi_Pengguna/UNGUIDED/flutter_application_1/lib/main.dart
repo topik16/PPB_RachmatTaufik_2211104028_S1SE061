@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:guided/my_bottom.dart';
+import 'package:flutter_application_1/my_bottom.dart';
 // import 'package:guided/my_tabbar.dart';
 // import 'package:guided_pertemuan06/my_package.dart';
 
