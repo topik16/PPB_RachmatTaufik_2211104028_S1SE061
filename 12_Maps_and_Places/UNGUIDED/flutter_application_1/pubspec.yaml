@@ -1,0 +1,27 @@
+name: percobaan2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"  # Sesuaikan dengan versi SDK yang tepat
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.10.0
+  flutter_google_places: ^0.3.0
+  flutter_dotenv: ^5.2.1
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+  google_maps_webservice: ^0.3.0  # Menambahkan dependensi untuk Google Maps Web Service
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env  # Pastikan file .env terletak di direktori root proyek
